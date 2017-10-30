@@ -41,17 +41,17 @@ let menu = {
   justifyLeft: {
     className: 'syl-menu-align-left',
     icon: 'fa fa-align-left',
-    action: 'justifyLeft',
+    action: 'justifyLeft'
   },
   justifyCenter: {
     className: 'syl-menu-align-center',
     icon: 'fa fa-align-center',
-    action: 'justifyCenter',
+    action: 'justifyCenter'
   },
   justifyRight: {
     className: 'syl-menu-align-center',
     icon: 'fa fa-align-right',
-    action: 'justifyRight',
+    action: 'justifyRight'
   },
   insertOrderedList: {
     className: 'syl-menu-ol',
