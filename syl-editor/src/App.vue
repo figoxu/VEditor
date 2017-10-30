@@ -1,17 +1,29 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <Layout></Layout>
   </div>
 </template>
 
 <script>
+import Layout from './components/layout'
+
 export default {
-  name: 'app'
+  name: 'app',
+  data() {
+    return {}
+  },
+  methods: {
+
+  },
+  components: {
+    Layout
+  }
 }
 </script>
 
 <style>
+@import '../static/font-awesome-4.7.0/css/font-awesome.min.css';
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,4 +32,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.syl-editor-menubar {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 </style>
